@@ -224,3 +224,5 @@ for ep in range(train_epoch):
     img_name = 'MNIST_GAN_results/results/MNIST_GAN_'+ str(ep+1)+'.png'
     images.append(imageio.imread(img_name))
 sess.close()
+
+#end
